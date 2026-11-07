@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+staticfiles/
+.env
+*.log
+
+# Local secrets (e.g. backend/.secret.txt holding the Geoapify key): never commit
+.secret.txt
+*.secret.txt
